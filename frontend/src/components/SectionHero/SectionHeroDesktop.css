@@ -1,0 +1,76 @@
+@media screen and (min-width: 899px) and (max-width: 1119px){
+    .sectionHero{
+        width: 100%;
+        background-image: url('../../../public/assets/images/bg_topo_1198x670.jpg');
+        background-size: cover;
+        background-position: right end;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 1rem;
+    }
+
+    .sectionHero img{
+        width: 5rem;
+        margin: 2rem;
+    }
+    .sectionHero h1{
+        padding: 1rem;
+    }
+
+    .sectionHero p{
+        text-align: center;
+        padding-bottom: 2rem;
+        padding: 0 1rem;
+    }
+
+    .sectionHero button{
+        padding: 0.5rem 1.5rem;
+        font-size: 1rem;
+        border-radius: 5%;
+        outline: 0;
+        border: 0;
+        background-color: var(--secondary-color);
+        color: azure;
+        margin: 5rem;
+    } 
+}
+
+@media screen and (min-width: 1119px){
+    .sectionHero{
+        width: 100%;
+        background-image: url('../../../public/assets/images/bg_topo_1600x1374.jpg');
+        background-size: cover;
+        background-position: right end;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        color: var(--primary-color);
+        padding: 1rem;
+    }
+
+    .sectionHero img{
+        width: 5rem;
+        margin: 2rem;
+    }
+    .sectionHero h1{
+        padding: 1rem;
+    }
+
+    .sectionHero p{
+        text-align: center;
+        padding-bottom: 2rem;
+        padding: 0 1rem;
+    }
+
+    .sectionHero button{
+        padding: 0.5rem 1.5rem;
+        font-size: 1rem;
+        border-radius: 5%;
+        outline: 0;
+        border: 0;
+        background-color: var(--secondary-color);
+        color: azure;
+        margin: 5rem;
+    } 
+}
