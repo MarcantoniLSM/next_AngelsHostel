@@ -8,6 +8,7 @@
         flex-direction: column;
         align-items: center;
         padding: 1rem;
+        color: azure;
     }
 
     .sectionHero img{
@@ -39,13 +40,17 @@
 @media screen and (min-width: 1119px){
     .sectionHero{
         width: 100%;
+        height: 70vh;
+        background-color: color-mix(in srgb, var(--primary-color) 50%, transparent 50%);
         background-image: url('../../../public/assets/images/bg_topo_1600x1374.jpg');
+        background-repeat: no-repeat;
         background-size: cover;
-        background-position: right end;
+        background-position: top center;
+        background-blend-mode:multiply ;
         display: flex;
         flex-direction: column;
         align-items: center;
-        color: var(--primary-color);
+        color: azure;
         padding: 1rem;
     }
 

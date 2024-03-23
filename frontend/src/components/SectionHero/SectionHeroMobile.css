@@ -6,8 +6,9 @@
         align-items: center;
         padding: 2rem;
         box-sizing: content-box;
-        color: var(--primary-color);
+        color: azure;
         padding: 1rem;
+        background-color: var(--primary-color);
     }
 
     .sectionHero img{
@@ -32,14 +33,5 @@
         background-color: var(--secondary-color);
         color: azure;
     } 
-}
-
-@media screen and (max-width: 1200px) and (min-width:500px){
-    .sectionHero{
-        width: 100%;
-        background-color: var(--primary-color);
-        color: azure;
-        padding: 1rem;
-    }
 }
 

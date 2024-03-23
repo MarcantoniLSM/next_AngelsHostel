@@ -1,0 +1,7 @@
+.sectionServices{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: #F7F5F7;
+}

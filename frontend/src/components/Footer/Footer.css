@@ -1,0 +1,14 @@
+footer{
+    background-color: var(--primary-color);
+    padding: 2rem 0;
+    width: 100%;
+    color: azure;
+}
+
+footer p{
+    text-align: center;
+}
+
+footer p a{
+    color: azure;
+}

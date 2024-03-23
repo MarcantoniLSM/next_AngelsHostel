@@ -1,0 +1,49 @@
+@media screen and (max-width: 1119px){
+    .cardArticle{
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 1rem;
+    }
+
+    .cardArticle img{
+        padding: 0.5rem;
+    }
+
+    .cardArticle h1{
+        padding: 0.5rem;
+    }
+
+
+    .cardArticle p{
+        text-align: center;
+    }
+}
+
+@media screen and (min-width: 1120px){
+    .cardArticle{
+        width: 25%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 1rem;
+    }
+
+    .cardArticle img{
+        padding: 0.5rem;
+    }
+
+    .cardArticle h1{
+        padding: 0.5rem;
+    }
+
+    .cardArticle p{
+        text-align: center;
+        padding: 1rem;
+        line-height: 1.5rem;
+        word-spacing: .1rem;
+    }
+}
